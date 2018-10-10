@@ -1,4 +1,4 @@
-dog_description = [{
+dogs_list = [{
                     'name': "Firulais",
                     'breed': 'schnutzer',
                     'size': '30 cm',
