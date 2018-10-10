@@ -6,8 +6,11 @@ class Dog:
         self.color = color
         self.size = size
         self.weight = weight
-        print(f"Hello, I`m {name} and I'm alive, my breed is {breed}, my color is {color}, size {size} and my weight {weight}")
+     
+        print(f"Hello, I`m {name} and I'm alive, my breed is {breed}, my color is {color}, size {size} and my weight {weight} ")
         
+    def __str__(self):
+        return self.name
 
     def bark(self,sound = "Whoof!"):
        print(f"{self.name} Says: {sound}")
