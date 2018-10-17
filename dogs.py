@@ -4,11 +4,11 @@ from dogs_class import Dog
 my_dog_list = []
 
 def add_dog():
-    name = input('name')
-    breed = input('breed')
-    size = input('size')
-    color = input('color')
-    weight = input('weight')
+    name = input('name: \n')
+    breed = input('breed: \n')
+    size = input('size: \n')
+    color = input('color: \n')
+    weight = input('weight: \n')
    
 
     new_dog = Dog(name,breed,color,size,weight,)
@@ -20,10 +20,10 @@ def show():
         print(dog)
 
 def menu():
-    print('[i] introducir nuevo registro')
-    print('[m] mostrar todos los perrunos')
-    print('[s] salir')
-    print('[e] emitir ladrido')
+    print(' [i] introducir nuevo registro ')
+    print(' [m] mostrar todos los perrunos  ')
+    print(' [s] salir ')
+    print(' [e] emitir ladrido ')
 
 def make_noise(name):
     for dog in my_dog_list:
@@ -48,7 +48,6 @@ while True:
     elif option =='e':
         name = input('¿como se llama?')
         make_noise (name)
-   
    
     '''
 first_dog = Dog(**dog_desription)

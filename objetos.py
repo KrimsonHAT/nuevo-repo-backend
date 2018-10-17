@@ -1,4 +1,5 @@
 #fabricar un robotsillo que salude 
+#alta coecion y bajo acoplamiento 
 class Robot:
     message = 'Hello'
     def say_Hello(self,text = ''):

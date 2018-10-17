@@ -19,6 +19,7 @@ else:
     print('is not ten')
 '''
 
+
 while True:
     try:
         numero1 = int(input('give me some value'))
